@@ -11,6 +11,8 @@ package daw;
 public class Tarea5DDanielNavarro {
 
     public static void main(String[] args) {
+        
+        // “Añade atributos en clase modelo”
         System.out.println("Hello World!");
     }
 }
