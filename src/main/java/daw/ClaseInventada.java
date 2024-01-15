@@ -48,6 +48,17 @@ public class ClaseInventada {
     public void setAtributoDoble(double atributoDoble) {
         this.atributoDoble = atributoDoble;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("ClaseInventada{");
+        sb.append("atributoTexto=").append(atributoTexto);
+        sb.append(", atributoEntero=").append(atributoEntero);
+        sb.append(", atributoDoble=").append(atributoDoble);
+        sb.append('}');
+        return sb.toString();
+    }
     
     
     
