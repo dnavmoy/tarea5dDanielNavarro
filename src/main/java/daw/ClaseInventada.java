@@ -10,9 +10,9 @@ package daw;
  */
 public class ClaseInventada {
     
-    String atributoTexto;
-    int atributoEntero;
-    double atributoDoble;
+    private String atributoTexto;
+    private int atributoEntero;
+    private double atributoDoble;
 
     
     //añado constructores
@@ -23,6 +23,30 @@ public class ClaseInventada {
     }
 
     public ClaseInventada() {
+    }
+
+    public String getAtributoTexto() {
+        return atributoTexto;
+    }
+
+    public int getAtributoEntero() {
+        return atributoEntero;
+    }
+
+    public double getAtributoDoble() {
+        return atributoDoble;
+    }
+
+    public void setAtributoTexto(String atributoTexto) {
+        this.atributoTexto = atributoTexto;
+    }
+
+    public void setAtributoEntero(int atributoEntero) {
+        this.atributoEntero = atributoEntero;
+    }
+
+    public void setAtributoDoble(double atributoDoble) {
+        this.atributoDoble = atributoDoble;
     }
     
     
