@@ -10,4 +10,21 @@ package daw;
  */
 public class ClaseInventada {
     
+    String atributoTexto;
+    int atributoEntero;
+    double atributoDoble;
+
+    public ClaseInventada(String atributoTexto, int atributoEntero, double atributoDoble) {
+        this.atributoTexto = atributoTexto;
+        this.atributoEntero = atributoEntero;
+        this.atributoDoble = atributoDoble;
+    }
+
+    public ClaseInventada() {
+    }
+    
+    
+    
+    
+    
 }
