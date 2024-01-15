@@ -14,6 +14,8 @@ public class ClaseInventada {
     int atributoEntero;
     double atributoDoble;
 
+    
+    //añado constructores
     public ClaseInventada(String atributoTexto, int atributoEntero, double atributoDoble) {
         this.atributoTexto = atributoTexto;
         this.atributoEntero = atributoEntero;
